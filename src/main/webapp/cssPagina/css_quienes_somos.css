@@ -1,0 +1,135 @@
+@charset "ISO-8859-1";
+
+
+
+
+.imagen {
+	width: 100%;
+	height: 400px;
+	cursor: pointer;
+}
+
+.imagen:hover {
+		filter: saturate(180%);
+		transition:all .5s ease-in-out;
+}
+
+.seccion{
+	padding: 0px 60px 0px 60px;
+}
+
+main p {
+		font-family: 'Noto Sans', sans-serif;
+		text-align: justify;
+}
+
+.titulo{
+	padding: 20px 60px 20px 60px;
+	font-size: 45px;
+	color: aqua;
+	
+	text-shadow:   3px 3px 1px blue,
+    5px 5px 2px rgba(0, 0, 0, .1),
+    8px 8px 3px blue;
+	
+	
+}
+
+.boton {
+	background-color: #05D1ED; 
+	display: block;
+	padding: 10px;
+	color: #fff;
+	width: 50%;
+
+    margin: auto;
+    margin-top: 30px;
+	border-radius: 20px;
+	box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, .1);
+	transition: .2s;
+}
+
+.boton:hover {
+	background: aqua;
+	box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, .2);
+	transform: translateY(-2px);
+}
+
+
+
+.post {
+	box-shadow: 0 1px 6px 1px rgba(0, 0, 0, .1);
+	overflow: hidden;
+	transition: .2s;
+	padding: 20px;
+	
+}
+
+.content {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 20px;	
+max-width: 1000px;
+margin: auto;
+padding: 40px 0 40px 0;
+}
+
+.post:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 1px 14px 2px rgba(0, 0, 0, .15);
+}
+
+
+.logo-aquae {
+	background: url("https://www.fundacionaquae.org/wp-content/uploads/2019/09/Logo-AQUAE-Alta-136.png");
+	width: 100%;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+	transition: .2s;
+
+}
+
+.logo-ecomar {
+	background: url("https://d345gr3ai2delh.cloudfront.net/uploads/old/images/users/162933/image_ecomarazul.png");
+	width: 100%;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+	transition: .2s;
+}
+
+.logo-cram {
+	background: url("https://cram.org/wp-content/uploads/2019/09/Logo_1200x630_blanco.png");
+	width: 100%;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+	transition: .2s;
+}
+
+.logo-aquae:hover {
+	-webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+     transform: rotateY(180deg);
+     transform-style: preserve-3d;
+     transition:all .5s ease-in-out;
+     
+   
+}
+
+.logo-ecomar:hover {
+	-webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+     transform: rotateY(180deg);
+     transform-style: preserve-3d;
+     transition:all .5s ease-in-out;
+}
+
+.logo-cram:hover {
+	-webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+     transform: rotateY(180deg);
+     transform-style: preserve-3d;
+     transition:all .5s ease-in-out;
+}

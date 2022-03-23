@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registrarse.AquaLife</title>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<script src="../js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="../cssPagina/css_registrarse.css">
+<script src="../jsPagina/js_registrarse.js"></script>
+</head>
+<body>
+<script>
+if($('form').smockValidateForm()){
+	 
+	}
+</script>
+	<form>
+		<section class="registro">
+			<h4>
+				<img src="../iconos/inicio_sesion.png" width="50px">
+			</h4>
+			<input class="cajas" type="text" name="nombre" id="nombre"
+				placeholder="Nombre" required>
+				
+				 <input class="cajas"
+				type="text" name="apellido" id="apellido"
+				placeholder="Primer Apellido" required> 
+				
+				<input class="cajas"
+				type="text" name="apellido2" id="apellido2"
+				placeholder="Segundo Apellido" required>
+				
+				 <input
+				class="cajas" type="text" name="dni" id="dni"
+				placeholder="00000000Z" pattern="[0-9]{8}[A-Za-z]{1}"
+				title="Debe poner 8 números y una letra" required>
+				
+				 <input
+				class="cajas" type="email" name="correo" id="correo"
+				placeholder="Correo electrónico" pattern=".+@gmail.com" title="Dirección de correo
+				no válida" required> 
+				<input
+				class="cajas" type="password" name="contraseña" id="contraseña"
+				placeholder="Contraseña" required>
+				
+				<input
+				class="cajas" type="password" name="contraseña2" id="contraseña2"
+				placeholder="Confirmar Contraseña"  required>
+			<p>
+				Estoy de acuerdo con los <a href="#">Términos y condiciones</a>
+			</p>
+			<input class="botones" type="submit" value="Registrarse">
+			<p>
+				<a href="#">¿Ya tienes cuenta?</a>
+		</section>
+	</form>
+</body>
+</html>
